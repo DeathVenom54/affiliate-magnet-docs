@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Affiliate Magnet',
   tagline: 'Earn from your community using affiliate links',
-  url: 'https://github.io/DeathVenom54/affiliate-magnet-docs',
-  baseUrl: '/',
+  url: 'https://bots.deathvenom.me',
+  baseUrl: '/affiliate-magnet/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -23,8 +23,6 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/DeathVenom54/affiliate-magnet-docs/edit/main/website/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

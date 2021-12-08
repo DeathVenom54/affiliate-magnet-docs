@@ -21,7 +21,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={'Home'}
-      description="Description will go into a meta tag in <head />">
+      description="Replace Unity Assetstore links with your affiliate">
       <HomepageHeader />
     </Layout>
   );

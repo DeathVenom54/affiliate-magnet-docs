@@ -1,0 +1,15 @@
+import TagBar from "../../src/components/TagBar";
+
+<TagBar tags={['global', 'adminOnly']} />
+
+This command register all server commands, in case they have not been registered already in a server.
+
+If you invite the bot to your server while it is online, server-only commands like `affiliate`, `config`
+and `set` will not be available in your server. You can then run this command to register the commands
+in your server once the bot is back online.
+
+## Usage
+
+`/register_commands [server_id: <your server id>]`
+
+Related question: [How do I get my server's ID?](https://www.alphr.com/discord-find-server-id/)

@@ -1,0 +1,38 @@
+import TagBar from "../../src/components/TagBar";
+
+<TagBar tags={['serverOnly', 'adminOnly']} />
+
+The slash command `/set` can be used to change various server options.
+
+:::info
+
+This is an admin-only command
+
+:::
+
+## Usage
+
+`/set <option name> [value: <option value>]`
+
+Here, `option name` is the name of the option you want to set.
+In case of nested options, put a space between the parent and child
+options.
+
+`value` is a required argument, which is the value you want to set
+the option to.
+
+:::caution
+
+Do not copy-paste the command, use the slash command menu (see [screenshots](#screenshots))
+
+:::
+
+## Examples
+
+To enabled bot: `/set enabled [value: True]`
+
+To set your Unity affiliate code: `/set unity affiliate_code [value: True]`
+
+## Screenshots
+
+This area is incomplete
