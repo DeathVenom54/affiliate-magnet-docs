@@ -9,7 +9,7 @@ const config = {
   title: 'Affiliate Magnet',
   tagline: 'Earn from your community using affiliate links',
   url: 'https://bots.deathvenom.me',
-  baseUrl: '/affiliate-magnet/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
