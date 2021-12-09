@@ -7,7 +7,7 @@
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #9145d6;
-  --ifm-color-primary-dark: #b37aff;
+  --ifm-color-primary-dark: #7e38bd;
   --ifm-color-primary-darker: #63279e;
   --ifm-color-primary-darkest: #4a197e;
   --ifm-color-primary-light: #a256ee;
@@ -28,8 +28,9 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 }
 
 html[data-theme='dark'] {
+  --ifm-color-primary: #d3c4fb;
+  --ifm-color-primary-dark: #b4a1e7;
   --ifm-background-color: #36393F;
-  --ifm-color-primary-dark: #b37aff;
   --ifm-navbar-background-color: #36393F;
   /* any other colors you wish to overwrite */
 }

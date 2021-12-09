@@ -14,7 +14,8 @@ const sidebars = {
     {
       type: 'category',
       label: 'Commands',
-      items: ['commands', 'commands/set', 'commands/config', 'commands/affiliate', 'commands/register'],
+      items: ['commands/set', 'commands/config', 'commands/affiliate', 'commands/register'],
+      link: { type: 'doc', id: 'commands' }
     },
     {
       type: 'category',

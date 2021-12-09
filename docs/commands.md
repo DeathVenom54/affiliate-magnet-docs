@@ -6,12 +6,6 @@ sidebar_position: 1
 ---
 # Commands
 
-:::info
-
-This is a brief description of slash commands, not a command itself.
-
-:::
-
 ## Description
 
 Affiliate magnet implements [slash commands](https://blog.discord.com/slash-commands-are-here-8db0a385d9e6)
