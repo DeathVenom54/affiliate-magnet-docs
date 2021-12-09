@@ -52,3 +52,41 @@ html[data-theme='dark'] {
 .tag-bar {
   margin: 20px 5px;
 }
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .left {
+  display: flex;
+}
+
+.header .left img {
+  height: 300px;
+}
+
+.header .right {
+  margin: 5px 30px;
+}
+
+.header .right .buttons a {
+  margin: 5px 10px;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 5px 15px;
+  border: none;
+  background-color: var(--ifm-color-primary);
+  color: white;
+  border-radius: 10px;
+}
+
+.header .right h1 {
+  font-size: 64px;
+}
+
+.header .right p {
+  font-size: 26px;
+}

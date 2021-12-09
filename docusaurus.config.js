@@ -51,7 +51,12 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Getting Started',
+            label: 'Documentation',
+          },
+          {
+            href: 'https://discord.gg/qJnrRvt7wW',
+            position: 'right',
+            label: 'Support Server',
           },
           {
             href: 'https://github.com/DeathVenom54/affiliate-magnet-docs',
@@ -69,6 +74,10 @@ const config = {
               {
                 label: 'Getting Started',
                 to: '/docs/intro',
+              },
+              {
+                label: 'Commands',
+                to: '/docs/commands',
               },
             ],
           },
@@ -91,7 +100,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Deathvenom, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Deathvenom. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
