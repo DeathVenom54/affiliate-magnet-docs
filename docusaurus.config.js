@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Affiliate Magnet',
-  tagline: 'Earn from your community using affiliate links',
+  tagline: 'Replace Unity Assetstore links with your affiliate',
   url: 'https://affiliate-magnet.deathvenom.me',
   baseUrl: '/',
   onBrokenLinks: 'throw',
