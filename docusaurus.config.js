@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Affiliate Magnet',
   tagline: 'Earn from your community using affiliate links',
-  url: 'https://bots.deathvenom.me',
+  url: 'https://affiliate-magnet.deathvenom.me',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
