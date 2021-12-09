@@ -43,6 +43,11 @@ html[data-theme='dark'] {
   font-weight: 500;
 }
 
+.tag:hover {
+  color: #e7e7e7;
+  text-decoration: none;
+}
+
 .tag-bar {
   margin: 20px 5px;
 }

@@ -34,11 +34,12 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      hideableSidebar: true,
       navbar: {
         title: 'Affiliate Magnet',
         logo: {
           alt: 'Affiliate Magnet Logo',
-          src: 'img/logo.png',
+          src: 'img/logo/trans-mascot-happy.png',
         },
         items: [
           {
