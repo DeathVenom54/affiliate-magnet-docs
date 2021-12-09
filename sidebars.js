@@ -8,6 +8,10 @@ const sidebars = {
       id: 'intro'
     },
     {
+      type: 'doc',
+      id: 'invite'
+    },
+    {
       type: 'category',
       label: 'Commands',
       items: ['commands', 'commands/set', 'commands/config', 'commands/affiliate', 'commands/register'],

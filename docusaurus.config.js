@@ -43,6 +43,11 @@ const config = {
         },
         items: [
           {
+            href: '/invite',
+            position: 'left',
+            label: 'Invite',
+          },
+          {
             type: 'doc',
             docId: 'intro',
             position: 'left',
