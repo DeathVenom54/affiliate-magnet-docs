@@ -15,6 +15,7 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'DeathVenom54', // Usually your GitHub org/user name.
   projectName: 'affiliate-magnet-docs', // Usually your repo name.
+  plugins: ['docusaurus-plugin-sass'],
 
   presets: [
     [
@@ -25,7 +26,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/css/custom.scss'),
         },
       }),
     ],
