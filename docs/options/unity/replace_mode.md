@@ -18,4 +18,4 @@ There are 2 modes you can set your bot 2. These are:
 a normal (non-affiliate) link. If a non-affiliate link is posted, it will be ignored.
 
 **Replace**: When the bot is set to Replace, it will replace any link posted
-in the server with an affiliate one by appending the [affiliate code](/docs/options/unity/code).
+in the server with an affiliate one by appending the [affiliate code](/docs/options/unity/affiliate_code).

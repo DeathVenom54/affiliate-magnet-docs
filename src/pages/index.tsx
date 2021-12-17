@@ -1,6 +1,5 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import DiscordChat from "@site/src/components/DiscordChat";
 
 export default function Home(): JSX.Element {
