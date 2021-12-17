@@ -24,7 +24,7 @@ const sidebars = {
         {
           type: 'category',
           label: 'unity',
-          items: ['options/unity/code', 'options/unity/mode']
+          items: ['options/unity/affiliate_code', 'options/unity/replace_mode']
         }],
     },
     {

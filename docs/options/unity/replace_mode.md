@@ -1,7 +1,3 @@
----
-id: mode
----
-
 # replace_mode
 
 ## Overview
