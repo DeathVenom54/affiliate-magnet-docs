@@ -7,52 +7,48 @@ sidebar_position: 0
 ## Invite the bot
 
 If you haven't already, [invite Affiliate Magnet](/docs/invite) to your server.
-## Set your affiliate code
 
-If you want the bot to replace links with your affiliate code, you first need to set your affiliate code.
+## Start the Setup
 
-:::info
+When the bot joins your server, it will send a message prompting you to set it up. The bot
+will start replacing links only after it has been set up.
 
-You don't need to set the affiliate code if you just want to use the `Clear` mode
+![](/img/ss/setup0.png)
 
-:::
-
-This can be done using the `/set` slash command, which is used to change various server settings
-(know more here)
-
-To set your affiliate code, type out `/set unity code` and make sure the slash command menu opens up.
-Then, enter your affiliate code in the `value` field and press enter. If there is no problem, your code
-will be saved and you will see a confirmation.
-
-<img style={{ height: "150px" }} src="/img/intro/set-aff-code.png" />
-<img style={{ height: "150px" }} src="/img/intro/conf-aff.png" />
-
-## Set the Replace Mode
-
-Replace mode specifies how links are to be handled. `Clear` will clear any affiliate link posted on your server,
-and `Replace` will replace it with your own
+Click on the Setup button to start the setup.
 
 :::info
+Only a server admin can set up the bot.
 
-If you wish to use the `Replace` mode, your affiliate code should be set beforehand
-
+Server admin is any member with the `Manage Server` permission
 :::
 
-You can set the replace mode using `/set unity replace_mode`, similar to how you set the affiliate code.
+## Set your affiliate code (optional)
 
-<img style={{ height: "200px" }} src="/img/intro/set-mode.png" />
-<img style={{ height: "150px" }} src="/img/intro/conf-mode.png" />
+First, you will be asked to set your affiliate code, if you want to use the
+`Replace` mode.
 
-## Enable the bot
+![](/img/ss/setup1.png)
 
-The bot is disabled by default when it joins a server. To start it up, use the command `/set enabled`
-and set enabled to True.
+**If you want to use the Replace mode:** Use the slash command `/set unity affiliate_code value:your_code`
+(replace `your_code` with your actual code) to set your affiliate code. Then, click on Next to proceed.
 
-<img style={{ height: "120px" }} src="/img/intro/set-enabled.png" />
-<img style={{ height: "150px" }} src="/img/intro/conf-enabled.png" />
+![](/img/ss/setup2.png)
 
-## You're ready to go!
+**If you want to use the Clear mode:** You don't need to set your affiliate code. Click on Next to proceed.
 
-The bot is now set up and ready to replace links! Here is an example:
+## Set your replace mode
 
-<img alt="example of replace" style={{ height: "250px" }} src="/img/intro/replace-example.png" />
+Now, you need to specify which mode you wish to use, `Clear` or `Replace`.
+
+![](/img/ss/setup3.png)
+
+:::info
+You must set your affiliate code first if you wish to use the `Replace` mode.
+:::
+
+## Done!
+
+Your bot has been set up and enabled.
+
+![](/img/ss/setup4.png)
