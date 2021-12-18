@@ -50,7 +50,7 @@ export default function Home(): JSX.Element {
         <h2>When set to Clear mode:</h2>
 
         <div className="feature">
-          <DiscordChat username="DV" role="#47a9ff">
+          <DiscordChat username="Timps" role="#3cd600" avatar="https://cdn.discordapp.com/avatars/209612068989566976/af4d0321a60b886ac3a779e30bd3e4bc.webp?size=80">
             <span>Woohoo there's a big discount on <a>https://assetstore.unity.com/packages/example/some-asset-1337<span className="highlight">?aid=someoneElsesAffiliate</span></a> !
             </span>
           </DiscordChat>

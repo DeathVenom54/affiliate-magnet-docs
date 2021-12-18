@@ -38,9 +38,13 @@ html[data-theme='dark'] {
   /* any other colors you wish to overwrite */
 }
 
+.main-wrapper {
+  display: block;
+}
+
 .tag {
   margin: 5px;
-  font-size: 18px;
+  font-size: 1em;
   padding: 3px 10px;
   border-radius: 5px;
   color: white;
@@ -66,7 +70,8 @@ html[data-theme='dark'] {
     display: flex;
 
     img {
-      height: 300px;
+      height: 20em;
+      width: 20em;
     }
   }
 
@@ -75,7 +80,7 @@ html[data-theme='dark'] {
 
     .buttons a {
       margin: 5px 10px;
-      font-size: 24px;
+      font-size: 2em;
       font-weight: 400;
       padding: 5px 15px;
       border: none;
@@ -85,11 +90,11 @@ html[data-theme='dark'] {
     }
 
     h1 {
-      font-size: 64px;
+      font-size: 5em;
     }
 
     p {
-      font-size: 26px;
+      font-size: 2.5em;
     }
   }
 }
@@ -98,14 +103,14 @@ html[data-theme='dark'] {
   margin: 20px 100px;
 
   h1 {
-    font-size: 36px;
-    font-weight: 600;
+    font-size: 3em;
+    font-weight: 700;
   }
 
   h2 {
     margin-left: 20px;
     font-weight: 500;
-    font-size: 28px;
+    font-size: 2.5em;
   }
 
   .feature {
@@ -114,7 +119,7 @@ html[data-theme='dark'] {
     margin: 20px 5px;
 
     p {
-      font-size: 24px;
+      font-size: 2em;
       margin: 0 30px;
     }
   }
@@ -133,32 +138,34 @@ html[data-theme='dark'] {
 
   img {
     border-radius: 100%;
-    height: 50px;
+    height: 5em;
     width: 50px;
   }
 
   .message {
     margin-left: 15px;
-    font-size: 18px;
+    font-size: 2em;
   }
 
   .username {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 0.9em;
   }
 
   .time {
     color: #99aab5;
     margin-left: 10px;
-    font-size: 16px;
+    font-size: 0.7em;
   }
 
   .content {
     background-color: inherit;
-    font: inherit;
+    font-size: 0.9em;
+    font-family: inherit;
     margin: 0;
     padding: 0;
     white-space: pre-line;
+    line-break: anywhere;
 
     .mention {
       background-color: #414675;
@@ -174,3 +181,72 @@ html[data-theme='dark'] {
     }
   }
 }
+
+// Responsive design
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  //body {
+  //  font-size: 0.6em;
+  //}
+
+  body {
+    font-size: 0.5em;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1.7em;
+  }
+
+  .tag {
+    font-size: 1.5em;
+  }
+
+  .features {
+    margin: 5px;
+
+    .feature {
+      margin: 10px;
+      p {
+        padding: 0;
+        margin: 0 10px;
+      }
+    }
+  }
+
+
+  b {
+    font-size: 2em;
+  }
+
+  a.footer__link-item, a.menu__link {
+    font-size: 2em;
+  }
+
+  .footer__title {
+    margin-bottom: 5px;
+  }
+
+  .footer__col {
+    margin-bottom: 20px;
+  }
+
+  .footer__copyright {
+    font-size: 2em;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
