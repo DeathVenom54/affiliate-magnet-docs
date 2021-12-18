@@ -36,6 +36,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       hideableSidebar: true,
+      metadata: [{
+        name: 'keywords',
+        content: 'discord, bot, discord bot, affiliate, unity, magnet'
+      }],
       navbar: {
         title: 'Affiliate Magnet',
         items: [
