@@ -185,20 +185,29 @@ html[data-theme='dark'] {
 // Responsive design
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  //body {
-  //  font-size: 0.6em;
-  //}
 
   body {
     font-size: 0.5em;
   }
 
   h1 {
+    font-size: 3em;
+  }
+
+  h2 {
     font-size: 2em;
   }
 
-  p {
-    font-size: 1.7em;
+  p, li {
+    font-size: 2em;
+  }
+
+  .tag {
+    font-size: 1.2em;
+  }
+
+  button.clean-btn {
+    font-size: 2em;
   }
 
   .tag {
@@ -217,13 +226,16 @@ html[data-theme='dark'] {
     }
   }
 
-
   b {
     font-size: 2em;
   }
 
-  a.footer__link-item, a.menu__link {
-    font-size: 2em;
+  a.footer__link-item {
+    font-size: 1em;
+  }
+
+  #__docusaurus > nav > div.navbar-sidebar > div.navbar-sidebar__items > div > ul > li > a {
+    font-size: 1em;
   }
 
   .footer__title {
@@ -237,16 +249,134 @@ html[data-theme='dark'] {
   .footer__copyright {
     font-size: 2em;
   }
+
+  nav > div.navbar-sidebar > div.navbar-sidebar__items.navbar-sidebar__items--show-secondary > div > ul > li > a,
+  nav > div.navbar-sidebar > div.navbar-sidebar__items.navbar-sidebar__items--show-secondary > div > ul > li > ul > li > a,
+  nav > div.navbar-sidebar > div.navbar-sidebar__items.navbar-sidebar__items--show-secondary > div > ul > li > ul > li > div > a,
+  nav > div.navbar-sidebar > div.navbar-sidebar__items.navbar-sidebar__items--show-secondary > div > ul > li > ul > li > ul > li > a,
+  nav > div.navbar-sidebar > div > div > ul > li > ul > li > a
+  {
+    font-size: 16px;
+  }
+
+  nav > div.navbar-sidebar > div.navbar-sidebar__brand > div > div > div.toggleTrackX_node_modules-\@docusaurus-theme-classic-lib-next-theme-Toggle-styles-module > span,
+  nav > div.navbar-sidebar > div.navbar-sidebar__brand > div > div > div.toggleTrackCheck_node_modules-\@docusaurus-theme-classic-lib-next-theme-Toggle-styles-module > span
+  {
+    font-size: 16px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+  body {
+    font-size: 0.6em;
+  }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+  p,li {
+    font-size: 2.2em;
+  }
+
+  button.clean-btn {
+    font-size: 2em;
+  }
+
+  .tag {
+    font-size: 2em;
+  }
+
+  .features {
+    margin: 10px 50px;
+
+    .feature p {
+      font-size: 2.4em;
+    }
+  }
+
+  .header {
+    margin: 5em;
+  }
+
+  .discord {
+    .content {
+      font-size: 1.1em;
+    }
+
+    .username {
+      font-size: 1.2em;
+    }
+
+    .time {
+      font-size: 1em;
+    }
+  }
+
+  b {
+    font-size: 2.5em;
+  }
+
+  a.footer__link-item, a.menu__link {
+    font-size: 1em;
+  }
+
+  .footer__title {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+  }
+
+  .footer__col {
+    margin-bottom: 20px;
+  }
+
+  .footer__copyright {
+    font-size: 2em;
+  }
+
+  nav > div.navbar-sidebar > div.navbar-sidebar__items.navbar-sidebar__items--show-secondary > div > ul > li > a,
+  nav > div.navbar-sidebar > div.navbar-sidebar__items.navbar-sidebar__items--show-secondary > div > ul > li > ul > li > a,
+  nav > div.navbar-sidebar > div.navbar-sidebar__items.navbar-sidebar__items--show-secondary > div > ul > li > ul > li > div > a,
+  nav > div.navbar-sidebar > div.navbar-sidebar__items.navbar-sidebar__items--show-secondary > div > ul > li > ul > li > ul > li > a,
+  nav > div.navbar-sidebar > div > div > ul > li > ul > li > a
+  {
+    font-size: 20px;
+  }
+
+  nav > div.navbar-sidebar > div.navbar-sidebar__brand > div > div > div.toggleTrackX_node_modules-\@docusaurus-theme-classic-lib-next-theme-Toggle-styles-module > span,
+  nav > div.navbar-sidebar > div.navbar-sidebar__brand > div > div > div.toggleTrackCheck_node_modules-\@docusaurus-theme-classic-lib-next-theme-Toggle-styles-module > span
+  {
+    font-size: 16px;
+  }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+  body {
+    font-size: 0.6em;
+  }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+  .table-of-contents a {
+    font-size: 0.7em;
+  }
+
+  a.navbar__link {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 2em;
+  }
+
+  div.main-wrapper.docs-wrapper.docs-doc-page > div > aside > div > nav > ul > li > ul > li > a,
+  div.main-wrapper.docs-wrapper.docs-doc-page > div > aside > div > nav > ul > li > a,
+  div.main-wrapper.docs-wrapper.docs-doc-page > div > aside > div > nav > ul > li > ul > li > div > a,
+  div.main-wrapper.docs-wrapper.docs-doc-page > div > aside > div > nav > ul > li > ul > li > ul > li > a,
+  div.main-wrapper.docs-wrapper.docs-doc-page > div > aside > div > nav > ul > li > div > a
+  {
+    font-size: 18px;
+  }
+
+  nav > div.navbar__inner > div.navbar__items.navbar__items--right > div > div > div.toggleTrackX_node_modules-\@docusaurus-theme-classic-lib-next-theme-Toggle-styles-module > span,
+  nav > div.navbar__inner > div.navbar__items.navbar__items--right > div > div > div.toggleTrackCheck_node_modules-\@docusaurus-theme-classic-lib-next-theme-Toggle-styles-module > span
+  {
+    font-size: 18px;
+  }
+}
