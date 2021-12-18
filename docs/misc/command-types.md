@@ -20,7 +20,7 @@ These commands can only be used by [server admins](#who-is-an-admin), although t
 
 If a member tried to use an admin-only command, they will receive an error:
 
-![](/img/ss/admin-error.png)
+![Only admin allowed error message](/img/ss/admin-error.png 'Only admin allowed error message')
 
 ### Who is an admin?
 
