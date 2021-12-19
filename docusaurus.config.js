@@ -55,6 +55,11 @@ const config = {
             label: 'Documentation',
           },
           {
+            href: '/donate',
+            position: 'right',
+            label: 'Donate'
+          },
+          {
             href: 'https://discord.gg/qJnrRvt7wW',
             position: 'right',
             label: 'Support Server',
