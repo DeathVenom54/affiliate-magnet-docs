@@ -106,7 +106,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Deathvenom. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Deathvenom. Built with Docusaurus. Art by <a href="https://faesu.carrd.co/">Faesu</a>`,
       },
       prism: {
         theme: lightCodeTheme,
