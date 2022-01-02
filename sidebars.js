@@ -25,6 +25,11 @@ const sidebars = {
           type: 'category',
           label: 'unity',
           items: ['options/unity/affiliate_code', 'options/unity/replace_mode']
+        },
+        {
+          type: 'category',
+          label: 'humblebundle',
+          items: ['options/humblebundle/partner', 'options/humblebundle/replace_mode']
         }],
     },
     {
