@@ -5,6 +5,10 @@ const sidebars = {
   sidebar: [
     {
       type: 'doc',
+      id: 'faq'
+    },
+    {
+      type: 'doc',
       id: 'intro'
     },
     {

@@ -6,14 +6,14 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={'Home'}
-      description="Replace links with affiliate ones">
+      description="Monetise your Discord server using affiliate links">
         <div className="header">
           <div className="left">
             <img className="logo" src="/img/logo/mega-mascot-happy.png" alt="Affiliate Magnet logo"/>
           </div>
           <div className="right">
             <h1>Affiliate Magnet</h1>
-            <p>Monetise your Unity Discord server using affiliate links</p>
+            <p>Monetise your Discord server using affiliate links</p>
             <div className="buttons">
               <a href="/docs/invite">Invite</a>
               <a href="/docs/intro">Guide</a>
@@ -26,6 +26,7 @@ export default function Home(): JSX.Element {
               <a href="https://humblebundle.com" target="_blank">
                 <img className="humble-logo" src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Humble_Bundle_H_logo_red.svg" alt="Humble Bundle logo"/>
               </a>
+              <a href="/docs/faq#will-the-bot-support-any-other-websites">...and more to come</a>
             </div>
           </div>
         </div>
