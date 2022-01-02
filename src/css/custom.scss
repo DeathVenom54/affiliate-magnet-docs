@@ -60,6 +60,17 @@ html[data-theme='dark'] {
   margin: 20px 5px;
 }
 
+.supports {
+  p {
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  a {
+    margin: 0 10px;
+  }
+}
+
 .header {
   display: flex;
   flex-direction: row;
@@ -266,6 +277,10 @@ html[data-theme='dark'] {
   }
 }
 
+.humble-logo, .unity-logo {
+  height: 35px;
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   body {
@@ -344,6 +359,10 @@ html[data-theme='dark'] {
   nav > div.navbar-sidebar > div.navbar-sidebar__brand > div > div > div.toggleTrackCheck_node_modules-\@docusaurus-theme-classic-lib-next-theme-Toggle-styles-module > span
   {
     font-size: 16px;
+  }
+
+  .humble-logo, .unity-logo {
+    height: 45px;
   }
 }
 
