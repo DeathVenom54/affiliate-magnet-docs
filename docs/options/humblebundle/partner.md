@@ -1,4 +1,9 @@
-# partner
+---
+id: partner
+title: partner
+---
+
+# humblebundle partner
 
 ## Overview
 

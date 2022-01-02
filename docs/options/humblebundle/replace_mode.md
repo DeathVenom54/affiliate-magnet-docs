@@ -1,4 +1,9 @@
-# replace_mode
+---
+id: replace_mode
+title: replace_mode
+---
+
+# humblebundle replace_mode
 
 ## Overview
 
