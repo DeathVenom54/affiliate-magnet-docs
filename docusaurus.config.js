@@ -55,19 +55,9 @@ const config = {
             label: 'Documentation',
           },
           {
-            href: '/donate',
-            position: 'right',
-            label: 'Donate'
-          },
-          {
             href: 'https://discord.gg/qJnrRvt7wW',
             position: 'right',
             label: 'Support Server',
-          },
-          {
-            href: 'https://github.com/DeathVenom54/affiliate-magnet-docs',
-            label: 'GitHub',
-            position: 'right',
           },
         ],
       },
@@ -100,8 +90,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Source',
+                href: 'https://github.com/DeathVenom54/affiliate-magnet-docs',
               },
             ],
           },

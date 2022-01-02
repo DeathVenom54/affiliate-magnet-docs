@@ -51,7 +51,7 @@ export default function Home(): JSX.Element {
 
         <div className="feature">
           <DiscordChat username="Timps" role="#3cd600" avatar="https://cdn.discordapp.com/avatars/209612068989566976/af4d0321a60b886ac3a779e30bd3e4bc.webp?size=80">
-            <span>Woohoo there's a big discount on <a>https://assetstore.unity.com/packages/example/some-asset-1337<span className="highlight">?aid=someoneElsesAffiliate</span></a> !
+            <span>Woohoo there's a big discount on <a>https://assetstore.unity.com/packages/example/some-asset-1337<span className="highlight">?aid=someOtherAffiliate</span></a> !
             </span>
           </DiscordChat>
 
@@ -63,7 +63,7 @@ export default function Home(): JSX.Element {
           <p>The bot cleans it out!</p>
 
           <DiscordChat username="Affiliate Magnet" role="#ffc20c" avatar="	https://cdn.discordapp.com/avatars/891700586288934952/777719b8f803da890b4dfeb5cebbb9c5.webp?size=80">
-            <span>From <span className="mention">@DV</span>: <br />Woohoo there's a big discount on <a>https://assetstore.unity.com/packages/example/some-asset-1337</a> !
+            <span>From <span className="mention">@Timps</span>: <br />Woohoo there's a big discount on <a>https://assetstore.unity.com/packages/example/some-asset-1337</a> !
             </span>
           </DiscordChat>
         </div>
