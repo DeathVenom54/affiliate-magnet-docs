@@ -55,6 +55,12 @@ const config = {
             label: 'Documentation',
           },
           {
+            type: 'doc',
+            docId: 'faq',
+            position: 'left',
+            label: 'FAQ'
+          },
+          {
             href: 'https://discord.gg/qJnrRvt7wW',
             position: 'right',
             label: 'Support Server',
