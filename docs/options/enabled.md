@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Command** : `/set enabled [value: <True or False>]`
+**Command** : `/set enabled <True or False>`
 
 **Description** : Enable or disable the bot in the current server
 
@@ -13,4 +13,4 @@
 ## Description
 
 This option disables or enables the bot's link processing in the server. When set to disabled,
-the bot will not respond to any links posted by users, but it can still be reached with commands.
+the bot will not respond to any links posted by users, but its commands can still be used.
