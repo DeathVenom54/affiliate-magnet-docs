@@ -56,8 +56,14 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'faq',
+            docId: 'custom',
             position: 'left',
+            label: 'Custom Bots'
+          },
+          {
+            type: 'doc',
+            docId: 'faq',
+            position: 'right',
             label: 'FAQ'
           },
           {
