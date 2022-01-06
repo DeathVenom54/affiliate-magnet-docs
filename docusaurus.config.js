@@ -71,6 +71,11 @@ const config = {
             position: 'right',
             label: 'Support Server',
           },
+          {
+            href: 'https://paypal.me/deathvenom54',
+            position: 'right',
+            label: 'Donate',
+          },
         ],
       },
       footer: {
