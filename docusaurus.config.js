@@ -100,11 +100,19 @@ const config = {
                 label: 'Commands',
                 to: '/docs/commands',
               },
+              {
+                label: 'Options',
+                to: '/docs/options'
+              }
             ],
           },
           {
             title: 'Community',
             items: [
+              {
+                label: 'Top.gg',
+                href: 'https://top.gg/bot/891700586288934952',
+              },
               {
                 label: 'Discord',
                 href: 'https://discord.gg/qJnrRvt7wW',
@@ -114,6 +122,18 @@ const config = {
           {
             title: 'More',
             items: [
+              {
+                label: 'FAQ',
+                to: '/docs/faq'
+              },
+              {
+                label: 'blog',
+                to: '/blog'
+              },
+              {
+                label: 'Custom Bots',
+                to: '/docs/custom'
+              },
               {
                 label: 'Source',
                 href: 'https://github.com/DeathVenom54/affiliate-magnet-docs',
