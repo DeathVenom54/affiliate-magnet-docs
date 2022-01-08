@@ -102,7 +102,7 @@ const config = {
               },
               {
                 label: 'Options',
-                to: '/docs/options'
+                to: '/docs/options/enabled'
               }
             ],
           },

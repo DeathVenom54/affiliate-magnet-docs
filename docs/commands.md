@@ -27,6 +27,6 @@ While describing commands, I write arguments in square brackets. This does not m
 have to type out the brackets, it's just an illustration of what the slash command might look like.
 
 For example, the slash command below can be described as `/set enabled [value:True]`, like it
-has been described in the [enabled option documentation page](/docs/options/enabled#overview)
+has been described in the [enabled option documentation page](/docs/options/enabled)
 
 ![](/img/ss/set-enabled.png)
