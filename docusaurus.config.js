@@ -28,6 +28,9 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.scss'),
         },
+        blog: {
+          path: 'blog',
+        }
       }),
     ],
   ],
@@ -53,6 +56,11 @@ const config = {
             docId: 'intro',
             position: 'left',
             label: 'Documentation',
+          },
+          {
+            to: 'blog',
+            position: 'left',
+            label: 'Blog',
           },
           {
             type: 'doc',

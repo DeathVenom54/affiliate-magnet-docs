@@ -193,6 +193,10 @@ html[data-theme='dark'] {
   }
 }
 
+div.main-wrapper.blog-wrapper.blog-list-page > div > div > aside > nav > ul > li > a {
+  font-size: 20px;
+}
+
 // Responsive design
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
