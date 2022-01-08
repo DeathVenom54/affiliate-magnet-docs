@@ -1,23 +1,71 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-}
-
-@media screen and (max-width: 966px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-}
-
-.buttons {
+.header {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  height: 250px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 38px;
+}
+
+.supports_icon {
+  height: 45px;
+  margin: 0 5px;
+}
+
+.supports_text {
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.supports_link {
+  font-size: 20px;
+}
+
+.description {
+  font-size: 24px;
+}
+
+.button {
+  cursor: pointer;
+  margin: 0 10px;
+  background-color: var(--ifm-color-primary);
+  color: white;
+  font-size: 20px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.button:hover {
+  color: #d1ced0;
+  text-decoration: none;
+}
+
+.feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.feature_text {
+  font-size: 22px;
+  margin: 10px 25px;
+}
+
+.feature_title1 {
+  margin: 30px 100px;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.feature_title2 {
+  font-size: 28px;
+  font-weight: 500;
+  margin: 5px 150px 0;
 }
