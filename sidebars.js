@@ -28,7 +28,8 @@ const sidebars = {
     {
       type: 'category',
       label: 'Options',
-      items: ['options/enabled',
+      items: [
+        'options/enabled',
         {
           type: 'category',
           label: 'unity',
@@ -36,9 +37,15 @@ const sidebars = {
         },
         {
           type: 'category',
+          label: 'amazon',
+          items: ['options/amazon/affiliate_tag', 'options/amazon/replace_mode']
+        },
+        {
+          type: 'category',
           label: 'humblebundle',
           items: ['options/humblebundle/partner', 'options/humblebundle/replace_mode']
-        }],
+        }
+        ],
     },
     {
       type: 'category',

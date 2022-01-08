@@ -21,12 +21,19 @@ export default function Home(): JSX.Element {
             </div>
             <div className="supports">
               <p className={styles.supports_text}>Currently supports:</p>
+
               <a href="https://assetstore.unity.com" target="_blank">
                 <img className={styles.supports_icon} src="https://i.redd.it/tu3gt6ysfxq71.png" alt="Unity logo"/>
               </a>
+
               <a href="https://humblebundle.com" target="_blank">
                 <img className={styles.supports_icon} src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Humble_Bundle_H_logo_red.svg" alt="Humble Bundle logo"/>
               </a>
+
+              <a href="https://amazon.com" target="_blank">
+                <img className={styles.supports_icon} src="https://pngimg.com/uploads/amazon/amazon_PNG5.png" alt="Amazon logo"/>
+              </a>
+
               <a href="/docs/faq#will-the-bot-support-any-other-websites" className={styles.supports_link}>...and more to come</a>
             </div>
           </div>
