@@ -23,32 +23,36 @@ Only a server admin can set up the bot.
 Server admin is any member with the `Manage Server` permission
 :::
 
-## Set your affiliate code (optional)
+## Set up the websites you want
 
-First, you will be asked to set your affiliate code, if you want to use the
-`Replace` mode.
+![](/img/ss/setup1.png)
 
-![Message asking for affiliate code](/img/ss/setup1.png 'Message asking for affiliate code')
+For each supported website, you can set your affiliate code/id, as well as the
+[replace_mode](/docs/options/unity/replace_mode).
 
-**If you want to use the Replace mode:** Use the slash command `/set unity affiliate_code value:your_code`
-(replace `your_code` with your actual code) to set your affiliate code. Then, click on Next to proceed.
+Setting up Amazon:
 
-![Setting affiliate code](/img/ss/setup2.png 'Setting affiliate code')
+![](/img/ss/setupa.png)
 
-**If you want to use the Clear mode:** You don't need to set your affiliate code. Click on Next to proceed.
+Setting up Humble Bundle:
 
-## Set your replace mode
+![](/img/ss/setuph.png)
 
-Now, you need to specify which mode you wish to use, `Clear` or `Replace`.
+Setting up Unity Asset Store:
 
-![Setting replace mode](/img/ss/setup3.png 'Setting replace mode')
+![](/img/ss/setupu.png)
 
-:::info
-You must set your affiliate code first if you wish to use the `Replace` mode.
-:::
+## Finish
+
+Once you are done setting up the website(s) you want, click on the Finish
+button. This actually enables the bot, to start replacing or clearing links.
+
+If, by mistake, you dismissed the message before clicking Finish, you can
+enable the bot yourself by running the slash command `/set enabled True`.
+
+
 
 ## Done!
 
-Your bot has been set up and enabled.
-
-![Setup complete](/img/ss/setup4.png 'Setup complete')
+Your bot has been set up and ready to rock! You can now delete the setup
+messages.
