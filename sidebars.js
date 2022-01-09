@@ -30,6 +30,7 @@ const sidebars = {
       label: 'Options',
       items: [
         'options/enabled',
+        'options/header',
         {
           type: 'category',
           label: 'unity',
