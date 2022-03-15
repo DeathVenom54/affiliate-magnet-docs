@@ -80,7 +80,7 @@ export default function Home(): JSX.Element {
 
           <p className={styles.feature_text}>The bot cleans it out!</p>
 
-          <DiscordChat username="Affiliate Magnet" role="#ffc20c" avatar="	https://cdn.discordapp.com/avatars/891700586288934952/777719b8f803da890b4dfeb5cebbb9c5.webp?size=80">
+          <DiscordChat username="Affiliate Magnet" role="#ffc20c" avatar="https://cdn.discordapp.com/avatars/891700586288934952/777719b8f803da890b4dfeb5cebbb9c5.webp?size=80">
             <span>From <span className={discord.mention}>@Timps</span>: <br />This bundle looks very useful <a className={discord.link}>https://www.humblebundle.com/books/some-imaginary-bundle</a>
             </span>
           </DiscordChat>

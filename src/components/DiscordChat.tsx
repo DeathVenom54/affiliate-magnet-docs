@@ -13,7 +13,7 @@ const DiscordChat: FC<DiscordChatProps> =  (props) => {
   const time = `${now.getHours()}:${now.getMinutes().toString().padStart(2, '0')}`
 
   return <div className={styles.discord}>
-    <img className={styles.avatar} src={props.avatar || "https://cdn.discordapp.com/avatars/289677961349824512/7d84502d8d56d7fb96ec9cf81b261d4e.webp?size=80"} alt=""/>
+    <img className={styles.avatar} src={props.avatar || "https://media.discordapp.net/attachments/948776154586816542/953261878472224818/AvatarRound.png"} alt=""/>
     <div className={styles.message}>
       <div>
         <span className={styles.username} style={{ color: props.role || '#fff' }}>{props.username}</span>
