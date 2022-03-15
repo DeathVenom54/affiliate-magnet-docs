@@ -139,6 +139,10 @@ const config = {
                 to: '/docs/custom'
               },
               {
+                label: 'Privacy Policy',
+                to: '/privacy-policy'
+              },
+              {
                 label: 'Source',
                 href: 'https://github.com/DeathVenom54/affiliate-magnet-docs',
               },
