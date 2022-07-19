@@ -68,12 +68,6 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'custom',
-            position: 'left',
-            label: 'Custom Bots'
-          },
-          {
-            type: 'doc',
             docId: 'faq',
             position: 'right',
             label: 'FAQ'
@@ -137,10 +131,6 @@ const config = {
               {
                 label: 'Blog',
                 to: '/blog'
-              },
-              {
-                label: 'Custom Bots',
-                to: '/docs/custom'
               },
               {
                 label: 'Terms of Service',

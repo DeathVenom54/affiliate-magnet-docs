@@ -9,10 +9,6 @@ const sidebars = {
     },
     {
       type: 'doc',
-      id: 'custom'
-    },
-    {
-      type: 'doc',
       id: 'intro'
     },
     {
