@@ -4,7 +4,7 @@ By using Affiliate Magnet, you agree to the following privacy policy.
 
 ## What information is stored?
 
-- Your settings, such as header, whitelist and replace modes, affiliate IDs/tags and server IDs are stored in our database.
+- Your settings, which include header, whitelist and replace modes, affiliate IDs/tags and server IDs are stored in our database.
 - Above settings are stored even after the bot is removed from the server.
 - If you send a message via direct support, your user ID is sent to the moderators but not stored in the database.
 

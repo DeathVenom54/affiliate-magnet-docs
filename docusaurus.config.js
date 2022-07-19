@@ -135,12 +135,16 @@ const config = {
                 to: '/docs/faq'
               },
               {
-                label: 'blog',
+                label: 'Blog',
                 to: '/blog'
               },
               {
                 label: 'Custom Bots',
                 to: '/docs/custom'
+              },
+              {
+                label: 'Terms of Service',
+                to: '/tos'
               },
               {
                 label: 'Privacy Policy',
