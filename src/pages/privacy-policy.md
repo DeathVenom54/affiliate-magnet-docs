@@ -32,4 +32,4 @@ email me at [dv@deathvenom.me](mailto:dv@deathvenom.me)
 ## Removing your data
 
 The bot cannot function without the server settings. However, if you are no longer using the bot,
-you can [email me](dv@deathvenom.me) to remove the settings for your server from the database.
+you can [email me](mailto:dv@deathvenom.me) to remove the settings for your server from the database.

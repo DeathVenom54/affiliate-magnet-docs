@@ -38,7 +38,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      hideableSidebar: true,
+      docs: {
+        sidebar: {
+          hideable: true,
+        },
+      },
       metadata: [{
         name: 'keywords',
         content: 'discord, bot, discord bot, affiliate, unity, magnet'
